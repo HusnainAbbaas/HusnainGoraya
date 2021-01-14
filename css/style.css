@@ -77,10 +77,15 @@ li a {
 }
 
 .iocn_colour {
-  color: #5742f5;
+  color: white;
 }
 .bg-success {
   color: #5742f5;
+}
+
+.cards_responsove {
+  padding-left: 200px;
+  border: 5px solid white;
 }
 
 .bar {
@@ -114,9 +119,9 @@ li a {
 .custom-toggler.navbar-toggler {
   border-color: rgb(250, 250, 250);
 }
-.custom-toggler .navbar-toggler-icon {
+/* .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+} */
 
 .shade {
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
