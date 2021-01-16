@@ -20,6 +20,10 @@ body {
   }
 }
 
+.image {
+  height: 40vh;
+}
+
 .navbar {
   background-image: -webkit-linear-gradient(0deg, #1a1a1b 0%, #424747 100%);
   z-index: 1;
