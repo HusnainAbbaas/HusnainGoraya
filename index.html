@@ -32,14 +32,14 @@
   <body>
     <div class="navbar">
       <nav
-        class="navbar navbar-expand-lg fixed-top text-light border_radius border-bottom"
+        class="navbar navbar-expand-lg fixed-top text-light border_radius border-bottom bg-info"
       >
         <a class="navbar-brand ml-5 border_radius" href="#home"
           ><img src="images/logo.png" alt=""
         /></a>
 
         <button
-          class="navbar-toggler custom-toggler justify-content-end"
+          class="navbar-toggler justify-content-end"
           type="button"
           data-toggle="collapse"
           data-target="#Menu"
@@ -47,7 +47,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon justify-content-end"></span>
+          <span class="justify-content-end">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+          </span>
         </button>
 
         <div class="collapse navbar-collapse nav justify-content-end" id="Menu">
@@ -62,22 +66,14 @@
                 ><b>About</b></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Services"
-                ><b>Services</b></a
-              >
-            </li>
+         
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#Portfolio"
                 ><b>portfolio</b></a
               >
             </li>
 
-            <li class="nav-item text-success">
-              <a class="nav-link js-scroll-trigger" href="#Contact"
-                ><b>Contact</b></a
-              >
-            </li>
+           
           </ul>
         </div>
       </nav>
@@ -86,76 +82,74 @@
     <!-- Start Home -->
 
     <section id="home" class="intro text-dark">
-     <div class="container ">     
-        <div class="row text-light col-lg-12 ">
-
-          <div class="col-lg-7"> 
-          <div class="row ">
-            <img
-              style="height: 90% ; width: 100%;"
-              src=" images/personal5.png"
-              alt="" 
-             class="col-sm-12 col-md-8 col-lg-8 col-xs-12 pt-3 pb-4 pr-2"
-            />
+      <div class="container">
+        <div class="row text-light col-lg-12">
+          <div class="col-lg-7">
+            <div class="row">
+              <img
+                style="height: 90%; width: 100%"
+                src=" images/personal5.png"
+                alt=""
+                class="col-sm-12 col-md-8 col-lg-8 col-xs-12 pt-3 pb-4 pr-2"
+              />
             </div>
           </div>
-<div class="row  col-lg-5 col-md-5 col-sm-12 col-xs-12 text-light">
-          <div >
-            <h6>Hello Everybody, i am</h6>
-            <h3>Husnain Abbas</h3>
-            <h4>Junior FullStack Developer</h4>
-            <p>   I love to  work at  web applications and emerging technologies related to it. For example machine learning that solve real-world problems 
-								<br />	Learning MERN stack  to build better web applications !
-            </p>
-            <ul style="margin-left: -35px" class="text-light">
-              <a
-                ><i
-                  class="fas fa-calendar-alt text-success mr-4 fa-2x mt-3 ml-0"
-                ></i
-                >6 march ,2000</a
-              >
-              <br />
-              <a
-                ><i class="fas fa-phone text-success mr-4 fa-2x mt-3 ml"></i>+92
-                (313) 4870615</a
-              >
+          <div class="row col-lg-5 col-md-5 col-sm-12 col-xs-12 text-light">
+            <div>
+              <h6>Hello Everybody, i am</h6>
+              <h3>Husnain Abbas</h3>
+              <h4>Junior FullStack Developer</h4>
+              <p>
+                I love to work at web applications and emerging technologies
+                related to it. For example machine learning that solve
+                real-world problems <br />
+                Learning MERN stack to build better web applications !
+              </p>
+              <ul style="margin-left: -35px" class="text-light">
+                <a
+                  ><i
+                    class="fas fa-calendar-alt text-success mr-4 fa-2x mt-3 ml-0"
+                  ></i
+                  >6 march ,2000</a
+                >
+                <br />
+                <a
+                  ><i class="fas fa-phone text-success mr-4 fa-2x mt-3 ml"></i
+                  >+92 (313) 4870615</a
+                >
 
-              <br />
+                <br />
 
-              <a href="#" class="text-light" style="text-decoration: none"
-                ><i class="fas fa-envelope text-success mr-4 fa-2x mt-3"></i>
-                f180160@nu.edu.pk</a
-              >
-              <br />
-              <a href="#" class="text-light" style="text-decoration: none"
-                ><i class="fas fa-home text-success mr-4 fa-2x mt-3"></i
-                >Shahdara Lahore,Pakistan</a
-              >
-              <br />
-            </ul>
-            <div class="text-light ml-1 mt-5">
-              <a href="mailto:f180160@nu.edu.pk"
-                ><button class="btn btn-outline-success" type="submit">
-                  Hire me
-                </button></a
-              >
+                <a href="#" class="text-light" style="text-decoration: none"
+                  ><i class="fas fa-envelope text-success mr-4 fa-2x mt-3"></i>
+                  f180160@nu.edu.pk</a
+                >
+                <br />
+                <a href="#" class="text-light" style="text-decoration: none"
+                  ><i class="fas fa-home text-success mr-4 fa-2x mt-3"></i
+                  >Shahdara Lahore,Pakistan</a
+                >
+                <br />
+              </ul>
+              <div class="text-light ml-1 mt-5">
+                <a href="mailto:f180160@nu.edu.pk"
+                  ><button class="btn btn-outline-success" type="submit">
+                    Hire me
+                  </button></a
+                >
+              </div>
             </div>
-
           </div>
         </div>
-    </div>
-
-  </div>
-
-</section>
+      </div>
+    </section>
 
     <!-- Home END -->
 
     <!-- About Start -->
 
-<section id="About" class="section-padding ">
-
-			<div class=" row col-lg-12 ">
+    <section id="About" class="section-padding">
+      <div class=" row col-lg-12 ">
 
 			<div class="col-lg-5 col-md-5 col-xs-12 pl-4"> 
 			<h4 class="navbar-brand">About Myself</h4>
@@ -164,73 +158,130 @@
         			</p>
 			</div> 
 		</div>
-                       
-                    <div class="row col-lg-12 pl-5 pt-2" > 
-				
-						
-                                 <div class="card  bg-success col-sm-5 col-md-5 col-lg-2 col-xs-3 " style="width: 9rem">
-                                    <div class="card-body  pt-2 ">
-                                       	<i class="fas fa-book mb-3 fa-2x iocn_colour"></i>
-										<h4 class="iocn_colour"><b>4</b></h4>
-										<p class="iocn_colour"><b>Total Projects</b></p>
-                                  </div>
-                                </div>
-        				               
-                                 <div class="card  bg-success col-sm-5 col-md-5 col-lg-2 col-xs-3 ml-1" style="width: 9rem">
-                                    <div class="card-body  pt-2">
-                                        <i class="fas fa-users mb-3 fa-2x iocn_colour "></i>
-        								<h4 class="iocn_colour"><b>2</b></h4>
-        								<p class="iocn_colour"><b>Total Volunteers</b></p>
-								    </div>
-								</div>
 
-					</div> 
-				
-        			
-
-                <div class="row col-lg-12">
-
-                <div class="col-lg-6"></div>
-
-	                <div class="col-lg-6 col-md-12 bar ">    
-
-							      	    <p class="pt-2">JavaScript</p>
-
-								         <div class="progress pt-1 pb-1">
-								             <div class="progress-bar bg-info" role="progressbar" style="width: 70%; border-radius: 50px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-								             </div>
-								                
-        
-
-                                                 <p class="pt-2">.NET</p>
-
-							                   <div class="progress pt-1 pb-1">
-							                         <div class="progress-bar bg-info" role="progressbar" style="width: 50%;border-radius: 50px;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-							                             </div>
-							                                 
-
-							                                 <p class="pt-2">HTML</p>
-        
-
-						                            <div class="progress pt-1 pb-1">
-							                             <div class="progress-bar bg-info" role="progressbar" style="width: 90%;border-radius: 50px;" aria-valuenow="90" aria-valuemin="" aria-valuemax="50"></div>
-							                        </div>
-
-                                    <p class="pt-2">Bootstrap</p>
-			                          	<div class="progress pt-1 pb-1">
-			                             <div class="progress-bar bg-info" role="progressbar" style="width: 95%;border-radius: 50px;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-			                        </div>
-			                         
-	             
-	                                      
+      <div class="row col-12 pt-2 ">
+        <div
+          class="card bg-success col-5 col-md-5 col-lg-2 col-xs-3 ml-4"
+          style="width: 9rem"
+        >
+          <div class="card-body pt-2 pr-2">
+            <i class="fas fa-book mb-3 fa-2x iocn_colour"></i>
+            <h4 class="iocn_colour"><b>7</b></h4>
+            <p class="iocn_colour"><b>Total Projects</b></p>
+          </div>
         </div>
-    </div>
 
-</section> 
+        <div
+          class="card bg-success col-5 col-md-5 col-lg-2 col-xs-3 ml-3"
+          style="width: 9rem"
+        >
+          <div class="card-body pr-2 pt-2">
+            <i class="fas fa-users mb-3 fa-2x iocn_colour"></i>
+            <h4 class="iocn_colour"><b>6</b></h4>
+            <p class="iocn_colour"><b>Total Volunteers</b></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <div class="col-lg-6"></div>
+
+        <div class="col-lg-6 col-md-12 bar">
+          <p class="pt-2">JavaScript</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 10%; border-radius: 50px"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
 
 
+        <p class="pt-2">Ruby</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 5%; border-radius: 50px"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="pt-2">C++</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 90%; border-radius: 50px"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
 
 
+          <p class="pt-2">MERN Stack</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 10%; border-radius: 50px"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+
+          <p class="pt-2">.NET</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 50%; border-radius: 50px"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="pt-2">HTML</p>
+
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 90%; border-radius: 50px"
+              aria-valuenow="90"
+              aria-valuemin=""
+              aria-valuemax="50"
+            ></div>
+          </div>
+
+          <p class="pt-2">Bootstrap</p>
+          <div class="progress pt-1 pb-1">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 95%; border-radius: 50px"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 
 <div class="row section-padding education-bg">
@@ -359,19 +410,16 @@
 </section>
 
 
-
-<!-- Services END -->
-
-    <!-- Start PORTFOLIO -->
+-->
 
     <section id="Portfolio" class="section-padding">
       <div class="container">
         <h4 class="navbar-brand">Portfolio</h4>
 
-        <div class="row  ml-2">
+        <div class="row ml-2">
           <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
             <div
-              class="card border_radius border border-light "
+              class="card border_radius border border-light"
               style="width: 14rem"
             >
               <img src="images/ludo...png" class="card-img-top" alt="..." />
@@ -381,8 +429,8 @@
                   ludo star has been developed in c++ by using Windows Forms
                 </p>
                 <a
-                  href="https://github.com/HusnainAbbaas/StudyPortfolio/tree/C++"
-                   class="btn btn-outline-success mt-2 ml-2"
+                  href="https://github.com/HusnainAbbaas/Ludo-Star"
+                  class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -391,7 +439,7 @@
 
           <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
             <div
-              class="card border_radius border border-light  "
+              class="card border_radius border border-light"
               style="width: 14rem"
             >
               <img src="images/painting.jpg" class="card-img-top" alt="..." />
@@ -402,8 +450,8 @@
                   OOP(object oriented programming)
                 </p>
                 <a
-                  href="https://github.com/HusnainAbbaas/StudyPortfolio/tree/C++"
-                   class="btn btn-outline-success mt-2 ml-2"
+                  href="https://github.com/HusnainAbbaas/Paint"
+                  class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -418,14 +466,14 @@
               <img src="images/web.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title pt-2 navbar-brand pl-1">
-                    single-page Web
+                  Online Learning Web
                 </h5>
                 <p class="card-text pl-2 pb-4">
                   This website has been developed in HTML and Bootstrap
                 </p>
                 <a
-                  href="https://github.com/HusnainAbbaas/StudyPortfolio/tree/Web-Apps"
-                 class="btn btn-outline-success mt-2 ml-2"
+                  href="https://github.com/HusnainAbbaas/E-Learning-Portal"
+                  class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -433,17 +481,22 @@
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-            <div class="card border_radius border border-light" style="width: 14rem">
+            <div
+              class="card border_radius border border-light"
+              style="width: 14rem"
+            >
               <img src="images/pickmart.jpeg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title pt-2 navbar-brand pl-2">Pick Mart</h5>
                 <h6 class="pl-2">
-                  By using   <b class="pl-2 pr-2">React.js</b>   i have developed this one 
+                  By using <b class="pl-2 pr-2">React.js</b> i have developed
+                  this one
                 </h6>
                 <p class="card-text pl-2">
-                 This is Ecommerce online shooping store yet i have implemented only front End
+                  This is Ecommerce online shooping store yet i have implemented
+                  only front End
                 </p>
-                <a href="#" class="btn btn-outline-success mt-2 ml-2"
+                <a href="https://github.com/HusnainAbbaas/ReactApp" class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -451,16 +504,24 @@
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-            <div class="card border_radius border border-light" style="width: 14rem">
-              <img src="images/react.jpg" class="card-img-top" alt="..." />
+            <div
+              class="card border_radius border border-light"
+              style="width: 14rem"
+            >
+              <img src="images/NET-WEB.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title pt-1 navbar-brand pl-2 pb-2">
-                  React Native
+                  .NET MVC Web App
                 </h5>
                 <p class="card-text pl-2">
-                  I have prepared a React Moblie App that is very demanding
+                  I have developed
+                  <b class="pl-2 pr-2"> .Net MVC Login Application</b> and
+                  perform all<b class="pl-2 pr-2"
+                    >CRUD operations with the Help of ADO.NET and Membership
+                    Classes</b
+                  >
                 </p>
-                <a href="#"  class="btn btn-outline-success mt-2 ml-2"
+                <a href="https://github.com/HusnainAbbaas/.NET-MVC-Login-APP" class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -468,15 +529,45 @@
           </div>
 
           <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
-            <div class="card border_radius border border-light" style="width: 14rem">
-              <img src="images/java.jpg" class="card-img-top" alt="..." />
+            <div
+              class="card border_radius border border-light"
+              style="width: 14rem"
+            >
+              <img src="images/WPF.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title pt-2 navbar-brand pl-2">Java Script</h5>
+                <h5 class="card-title pt-2 navbar-brand pl-2">
+                  .NET WPF Application
+                </h5>
                 <p class="card-text pl-2">
-                  JavaScript is a programming language commonly used in web
-                  development. 
+                  Developed a POS system By using
+                  <b class="pl-2 pr-2"> ( WPF and ADO.NET ) </b> and perform all
+                  CRUD operations
                 </p>
-                <a href="#"  class="btn btn-outline-success mt-2 ml-2"
+                <a href="https://github.com/HusnainAbbaas/POS-System-WPF" class="btn btn-outline-success mt-2 ml-2"
+                  >Explore</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
+            <div
+              class="card border_radius border border-light"
+              style="width: 14rem"
+            >
+              <img src="images/Covid.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title pt-1 navbar-brand pl-2 pb-2">
+                  .NET MVC (COVID-19)
+                </h5>
+                <p class="card-text pl-2">
+                  I have developed
+                  <b class="pl-2 pr-2"> .Net MVC COVID-19 Web Application</b>
+                  and perform all<b class="pl-2 pr-2"
+                    >CRUD operations with the Help of ADO.NET</b
+                  >
+                </p>
+                <a href="https://github.com/HusnainAbbaas/COVID-19-Theme" class="btn btn-outline-success mt-2 ml-2"
                   >Explore</a
                 >
               </div>
@@ -485,7 +576,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- PORTFOLIO END -->
 
@@ -605,19 +695,42 @@
 
     <!-- Footer Start -->
 
-    <!-- <footer class="btn-background py-3 text-light">
-		<div class="container  footer ">
-		<div>
-		    <span class="text-light">Follow Us: </span>
-		    <a href="https://web.facebook.com/husnain.goraya.338" target="_blank"><i class="text-light fab fa-facebook-f px-3"></i></a>
-		    <a href="https://twitter.com" target="_blank"><i class="text-light fab fa-twitter  pr-3"></i></a>
-		    <a href="https://www.youtube.com" target="_blank"><i class="text-light fab fa-youtube pr-3"></i></a>
-		    <a href="https://www.gmail.com"target="_blank"><i class="text-light fab fa-google-plus-g pr-3"></i></a>
-		    <a href="#" target="_blank"><i class="text-light fas fa-rss pr-3"></i></a>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+ 
+    
+  <div class="moveright moveright_small">
+    <div class="row border_radius foot  text-light bg-info" >
+		
+        <div class="  col-1 navbar-brand iocn_colour "><h4>Follow me:</h4></div>
+        <div class="col-10">
+        
+        <a href="https://web.facebook.com/husnain.goraya.338" target="_blank"><i class=" iocn_colour fab fa-facebook-f fa-2x pl-3 ml-5"></i></a>
+		    <a href="mailto:f180160@nu.edu.pk" target="_blank"><i class="fas fa-envelope iocn_colour fa-2x  pl-3"></i></a>
+		    <a href="https://github.com/HusnainAbbaas" target="_blank"><i class="fab fa-github iocn_colour fa-2x pl-3 pt-1"></i></a>
+        
+
+		
 		  </div>
-		<div class="small text-center text-light">Copyright &copy; 2019  All Rights Reserved.</div>
+		
 		</div>
-		</footer>  -->
+</div>
 
     <!-- Footer End -->
 

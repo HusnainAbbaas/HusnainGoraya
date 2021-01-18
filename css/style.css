@@ -24,8 +24,16 @@ body {
   height: 40vh;
 }
 
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 6px;
+}
+
 .navbar {
-  background-image: -webkit-linear-gradient(0deg, #1a1a1b 0%, #424747 100%);
+  /* background-image: -webkit-linear-gradient(0deg, #1a1a1b 0%, #424747 100%); */
   z-index: 1;
 }
 .border_radius {
@@ -120,9 +128,99 @@ li a {
   border-color: red;
 }
 
-.custom-toggler.navbar-toggler {
-  border-color: rgb(250, 250, 250);
+.moveright {
+  margin-left: 20px;
 }
+
+@media screen and (max-width: 328px) and (min-width: 310px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 25px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 328px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 18px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 350px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 18px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 400px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 18px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 450px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 19px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 500px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 18px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 310px) and (min-width: 280px) {
+  .moveright_small {
+    background-color: #3498db !important;
+    border-radius: 7px;
+    margin-left: 40px;
+    max-width: 100%;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+.foot {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6vh;
+  margin-left: 100px;
+  text-align: center;
+}
+
+/* border-color: rgb(250, 250, 250); */
+
 /* .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 } */
