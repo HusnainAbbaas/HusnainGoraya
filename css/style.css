@@ -36,14 +36,49 @@ body {
   /* background-image: -webkit-linear-gradient(0deg, #1a1a1b 0%, #424747 100%); */
   z-index: 1;
 }
-.border_radius {
-  border-radius: 7px;
+.border_Radius {
+  
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  
 }
+
+
+
+.MyFooter {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ background-color: #3498db !important;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
 .img_radius {
   border-radius: 50px;
 }
 
-.intro {
+.overfloww{
+ overflow:hidden ;
+
+}
+.image-container {
+
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+
+
+
+
+.Padding-Top{
   padding-top: 100px;
 }
 
@@ -140,6 +175,8 @@ li a {
     max-width: 100%;
     width: 100vw;
     align-items: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
 }
 
