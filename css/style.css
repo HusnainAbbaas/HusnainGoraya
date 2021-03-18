@@ -11,6 +11,25 @@ body {
   font-size: 2em;
   font-weight: bold;
 }
+
+@media screen and (min-width: 570px) {
+  .img-change {
+/*   
+    width: 88%;
+       height: 90%;
+   */
+      }
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
   body {
     background-color: lightgreen;
